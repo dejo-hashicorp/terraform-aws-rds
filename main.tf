@@ -51,7 +51,7 @@ resource "aws_security_group" "rds" {
   }
 
   tags = {
-    Name = "${random_pet.random.id}-education_rds"
+    Name = "${random_pet.random.id}-education_rds_example"
   }
 }
 
