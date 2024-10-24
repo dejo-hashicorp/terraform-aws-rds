@@ -29,6 +29,7 @@ resource "aws_db_subnet_group" "education" {
 
   tags = {
     Name = "${random_pet.random.id} Education"
+    environment = "${random_pet.random.id} Education"
   }
 }
 
