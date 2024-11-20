@@ -5,6 +5,8 @@ provider "aws" {
   region = "us-east-2"
 }
 
+# Comment
+
 provider "random" {}
 
 data "aws_availability_zones" "available" {}
